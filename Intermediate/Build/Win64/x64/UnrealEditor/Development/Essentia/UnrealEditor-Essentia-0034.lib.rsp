@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Essentia-0034.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\silen\Documents\Unreal Projects\Laboratory\Intermediate\Build\Win64\x64\LaboratoryEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\silen\Documents\Unreal Projects\Laboratory\Plugins\Essentia\Intermediate\Build\Win64\x64\UnrealEditor\Development\Essentia\Module.Essentia.cpp.obj"
+"C:\Users\silen\Documents\Unreal Projects\Laboratory\Plugins\Essentia\Intermediate\Build\Win64\x64\UnrealEditor\Development\Essentia\Default.rc2.res"
+/OUT:"C:\Users\silen\Documents\Unreal Projects\Laboratory\Plugins\Essentia\Intermediate\Build\Win64\x64\UnrealEditor\Development\Essentia\UnrealEditor-Essentia-0034.lib"

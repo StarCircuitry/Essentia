@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Essentia.cpp.obj": [
+			"EssenceTagBarComponent_Base.gen.cpp.obj",
+			"EssenceTagContainer_Base.gen.cpp.obj",
+			"EssenceTag_Base.gen.cpp.obj",
+			"Essentia.init.gen.cpp.obj",
+			"EssentiaAppendix.gen.cpp.obj",
+			"EssentialActor_Base.gen.cpp.obj",
+			"EssentialCharacter_Base.gen.cpp.obj",
+			"EssentialComponent.gen.cpp.obj",
+			"EssentialField_Base.gen.cpp.obj",
+			"EssentialParticle_Base.gen.cpp.obj",
+			"EssentialPawn_Base.gen.cpp.obj",
+			"EssentialProjectileBasic_Base.gen.cpp.obj",
+			"EssentiaWidget_Base.gen.cpp.obj",
+			"EssenceTagBarComponent_Base.cpp.obj",
+			"EssenceTagContainer_Base.cpp.obj",
+			"EssenceTag_Base.cpp.obj",
+			"Essentia.cpp.obj",
+			"EssentiaAppendix.cpp.obj",
+			"EssentialActor_Base.cpp.obj",
+			"EssentialCharacter_Base.cpp.obj",
+			"EssentialComponent.cpp.obj",
+			"EssentialField_Base.cpp.obj",
+			"EssentiaLibrary.cpp.obj",
+			"EssentialParticle_Base.cpp.obj",
+			"EssentialPawn_Base.cpp.obj",
+			"EssentialProjectileBasic_Base.cpp.obj",
+			"EssentiaWidget_Base.cpp.obj"
+		]
+	}
+}
