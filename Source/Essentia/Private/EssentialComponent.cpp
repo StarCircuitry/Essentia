@@ -1281,9 +1281,9 @@ int32 UEssentialComponent::PurgeFire(FEssenceStack Stack, int32 Bookmark)
 			{
 				InteractFlags[ElemID] = true;
 
-				if (CascadeParams.Contains(LIGHTNING) &&
-					CascadeParams[LIGHTNING].TriggerElemID == -1) {
-					CascadeParams[LIGHTNING].TriggerElemID = ElemID;
+				if (CascadeParams.Contains(FIRE) &&
+					CascadeParams[FIRE].TriggerElemID == -1) {
+					CascadeParams[FIRE].TriggerElemID = ElemID;
 
 					if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 						Bookmark--;
