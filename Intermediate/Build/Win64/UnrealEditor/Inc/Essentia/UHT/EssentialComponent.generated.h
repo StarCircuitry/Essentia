@@ -37,10 +37,10 @@ struct FEssenceStack;
 	DECLARE_FUNCTION(execMaterialAdd); \
 	DECLARE_FUNCTION(execTagRemove); \
 	DECLARE_FUNCTION(execTagAdd); \
-	DECLARE_FUNCTION(execInitializeDisplayComponent); \
+	DECLARE_FUNCTION(execInitializeDisplayWidget); \
 	DECLARE_FUNCTION(execDisplayRemove); \
 	DECLARE_FUNCTION(execDisplayAdd); \
-	DECLARE_FUNCTION(execDisplayEssentia); \
+	DECLARE_FUNCTION(execEditorDisplayEssentia); \
 	DECLARE_FUNCTION(execSpawnField); \
 	DECLARE_FUNCTION(execPurgeStack); \
 	DECLARE_FUNCTION(execEssentialTick); \

@@ -150,11 +150,11 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		P_THIS->TagAdd(Z_Param_Stack);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(UEssentialComponent::execInitializeDisplayComponent)
+	DEFINE_FUNCTION(UEssentialComponent::execInitializeDisplayWidget)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->InitializeDisplayComponent();
+		P_THIS->InitializeDisplayWidget();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UEssentialComponent::execDisplayRemove)
@@ -173,12 +173,12 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		P_THIS->DisplayAdd(Z_Param_Stack);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(UEssentialComponent::execDisplayEssentia)
+	DEFINE_FUNCTION(UEssentialComponent::execEditorDisplayEssentia)
 	{
 		P_GET_STRUCT(FEssenceStack,Z_Param_DisplayStack);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->DisplayEssentia(Z_Param_DisplayStack);
+		P_THIS->EditorDisplayEssentia(Z_Param_DisplayStack);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UEssentialComponent::execSpawnField)
@@ -242,12 +242,12 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 			{ "CheckCascade", &UEssentialComponent::execCheckCascade },
 			{ "DestroyEphemeral", &UEssentialComponent::execDestroyEphemeral },
 			{ "DisplayAdd", &UEssentialComponent::execDisplayAdd },
-			{ "DisplayEssentia", &UEssentialComponent::execDisplayEssentia },
 			{ "DisplayRemove", &UEssentialComponent::execDisplayRemove },
+			{ "EditorDisplayEssentia", &UEssentialComponent::execEditorDisplayEssentia },
 			{ "EssentialTick", &UEssentialComponent::execEssentialTick },
 			{ "FinishCascade", &UEssentialComponent::execFinishCascade },
 			{ "GetBasicStack", &UEssentialComponent::execGetBasicStack },
-			{ "InitializeDisplayComponent", &UEssentialComponent::execInitializeDisplayComponent },
+			{ "InitializeDisplayWidget", &UEssentialComponent::execInitializeDisplayWidget },
 			{ "MaterialAdd", &UEssentialComponent::execMaterialAdd },
 			{ "MaterialRemove", &UEssentialComponent::execMaterialRemove },
 			{ "PurgeAir", &UEssentialComponent::execPurgeAir },
@@ -427,46 +427,6 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics
-	{
-		struct EssentialComponent_eventDisplayEssentia_Parms
-		{
-			FEssenceStack DisplayStack;
-		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_DisplayStack;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::NewProp_DisplayStack = { "DisplayStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventDisplayEssentia_Parms, DisplayStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::NewProp_DisplayStack,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/* There are a few different ways we can broadcast information about the current charge state.\n\x09* I currently support widget \"tags\" attached to the main actor, a color-coded material, and\n\x09* printing to the editor screen.\n\x09* \n\x09*/" },
-#endif
-		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "There are a few different ways we can broadcast information about the current charge state.\n      * I currently support widget \"tags\" attached to the main actor, a color-coded material, and\n      * printing to the editor screen." },
-#endif
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEssentialComponent, nullptr, "DisplayEssentia", nullptr, nullptr, Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::EssentialComponent_eventDisplayEssentia_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::Function_MetaDataParams) };
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::PropPointers) < 2048);
-	static_assert(sizeof(Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::EssentialComponent_eventDisplayEssentia_Parms) < MAX_uint16);
-	UFunction* Z_Construct_UFunction_UEssentialComponent_DisplayEssentia()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEssentialComponent_DisplayEssentia_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_UEssentialComponent_DisplayRemove_Statics
 	{
 		struct EssentialComponent_eventDisplayRemove_Parms
@@ -498,6 +458,46 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEssentialComponent_DisplayRemove_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics
+	{
+		struct EssentialComponent_eventEditorDisplayEssentia_Parms
+		{
+			FEssenceStack DisplayStack;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_DisplayStack;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::NewProp_DisplayStack = { "DisplayStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventEditorDisplayEssentia_Parms, DisplayStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::NewProp_DisplayStack,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/**\n\x09* There are a few different ways we can broadcast information about the current charge state.\n\x09* I currently support widget \"tags\" attached to the main actor, a color-coded material, and\n\x09* printing to the editor screen.\n\x09* \n\x09*/" },
+#endif
+		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "There are a few different ways we can broadcast information about the current charge state.\nI currently support widget \"tags\" attached to the main actor, a color-coded material, and\nprinting to the editor screen." },
+#endif
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEssentialComponent, nullptr, "EditorDisplayEssentia", nullptr, nullptr, Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::EssentialComponent_eventEditorDisplayEssentia_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::EssentialComponent_eventEditorDisplayEssentia_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -602,12 +602,12 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::Function_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n\x09* Utility function that gets a basic instance of an elemental charge\n\x09*/" },
+		{ "Comment", "/**\n\x09* Utility function that gets a default stack instance of a given element.\n\x09*/" },
 #endif
 		{ "CPP_Default_bIsStable", "false" },
 		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Utility function that gets a basic instance of an elemental charge" },
+		{ "ToolTip", "Utility function that gets a default stack instance of a given element." },
 #endif
 	};
 #endif
@@ -623,7 +623,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics
+	struct Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics
 	{
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -631,17 +631,17 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics::Function_MetaDataParams[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEssentialComponent, nullptr, "InitializeDisplayComponent", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics::Function_MetaDataParams) };
-	UFunction* Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent()
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEssentialComponent, nullptr, "InitializeDisplayWidget", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent_Statics::FuncParams);
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -741,11 +741,11 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::Function_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/* Possible purge effects are granular enough that the code is very messy if we try to do\n\x09* everything in one function. Instead, the main purge function calls one of these based on input\n\x09*/" },
+		{ "Comment", "/**\n\x09* Possible purge effects are granular enough that the code is very messy if we try to do\n\x09* everything in one function. Instead, the main purge function calls one of these based on input\n\x09*/" },
 #endif
 		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Possible purge effects are granular enough that the code is very messy if we try to do\n      * everything in one function. Instead, the main purge function calls one of these based on input" },
+		{ "ToolTip", "Possible purge effects are granular enough that the code is very messy if we try to do\neverything in one function. Instead, the main purge function calls one of these based on input" },
 #endif
 	};
 #endif
@@ -1178,11 +1178,11 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::Function_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/* Certain elemental interactions spawn AOE regions charged with an element. The actual logic\n\x09* takes place in those actors, but this is what we need to create them.\n\x09*/" },
+		{ "Comment", "/**\n\x09* Certain elemental reactions spawn AOE regions charged with an element. The actual logic\n\x09* takes place in those actors, but this is what we need to create them.\n\x09*/" },
 #endif
 		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Certain elemental interactions spawn AOE regions charged with an element. The actual logic\n      * takes place in those actors, but this is what we need to create them." },
+		{ "ToolTip", "Certain elemental reactions spawn AOE regions charged with an element. The actual logic\ntakes place in those actors, but this is what we need to create them." },
 #endif
 	};
 #endif
@@ -1352,15 +1352,15 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		{ &Z_Construct_UFunction_UEssentialComponent_CheckCascade, "CheckCascade" }, // 413540118
 		{ &Z_Construct_UFunction_UEssentialComponent_DestroyEphemeral, "DestroyEphemeral" }, // 2202684848
 		{ &Z_Construct_UFunction_UEssentialComponent_DisplayAdd, "DisplayAdd" }, // 1662591663
-		{ &Z_Construct_UFunction_UEssentialComponent_DisplayEssentia, "DisplayEssentia" }, // 3870514279
 		{ &Z_Construct_UFunction_UEssentialComponent_DisplayRemove, "DisplayRemove" }, // 2345153669
+		{ &Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia, "EditorDisplayEssentia" }, // 1778682000
 		{ &Z_Construct_UFunction_UEssentialComponent_EssentialTick, "EssentialTick" }, // 3753089425
 		{ &Z_Construct_UFunction_UEssentialComponent_FinishCascade, "FinishCascade" }, // 773035481
-		{ &Z_Construct_UFunction_UEssentialComponent_GetBasicStack, "GetBasicStack" }, // 2570337647
-		{ &Z_Construct_UFunction_UEssentialComponent_InitializeDisplayComponent, "InitializeDisplayComponent" }, // 1804942007
+		{ &Z_Construct_UFunction_UEssentialComponent_GetBasicStack, "GetBasicStack" }, // 1666440290
+		{ &Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget, "InitializeDisplayWidget" }, // 2987498281
 		{ &Z_Construct_UFunction_UEssentialComponent_MaterialAdd, "MaterialAdd" }, // 2028630655
 		{ &Z_Construct_UFunction_UEssentialComponent_MaterialRemove, "MaterialRemove" }, // 565984376
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeAir, "PurgeAir" }, // 2489361175
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeAir, "PurgeAir" }, // 3207624081
 		{ &Z_Construct_UFunction_UEssentialComponent_PurgeEarth, "PurgeEarth" }, // 2144811046
 		{ &Z_Construct_UFunction_UEssentialComponent_PurgeFire, "PurgeFire" }, // 2719276920
 		{ &Z_Construct_UFunction_UEssentialComponent_PurgeLightning, "PurgeLightning" }, // 648056701
@@ -1370,7 +1370,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWater, "PurgeWater" }, // 3912437627
 		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWood, "PurgeWood" }, // 722159122
 		{ &Z_Construct_UFunction_UEssentialComponent_RemoveStack, "RemoveStack" }, // 943032199
-		{ &Z_Construct_UFunction_UEssentialComponent_SpawnField, "SpawnField" }, // 578850885
+		{ &Z_Construct_UFunction_UEssentialComponent_SpawnField, "SpawnField" }, // 1864598832
 		{ &Z_Construct_UFunction_UEssentialComponent_TagAdd, "TagAdd" }, // 557886155
 		{ &Z_Construct_UFunction_UEssentialComponent_TagRemove, "TagRemove" }, // 2577559860
 	};
@@ -1571,9 +1571,9 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UEssentialComponent, UEssentialComponent::StaticClass, TEXT("UEssentialComponent"), &Z_Registration_Info_UClass_UEssentialComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssentialComponent), 78323237U) },
+		{ Z_Construct_UClass_UEssentialComponent, UEssentialComponent::StaticClass, TEXT("UEssentialComponent"), &Z_Registration_Info_UClass_UEssentialComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssentialComponent), 69390530U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_3699565724(TEXT("/Script/Essentia"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_2724991624(TEXT("/Script/Essentia"),
 		Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

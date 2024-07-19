@@ -500,7 +500,7 @@ int32 UEssentialComponent::PurgeLightning(FEssenceStack Stack, int32 Bookmark)
 				break;
 
 			case LIGHTNING:
-				// Lightning-lightning, pick up energy if we're cascading
+				// Lightning-lightning, pick up energy if we're cascading 
 
 				if (CascadeParams.Contains(ElemID)) {
 					if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
@@ -621,10 +621,13 @@ int32 UEssentialComponent::PurgeStars(FEssenceStack Stack, int32 Bookmark)
 		switch (ElemID)
 		{
 		case AIR:
-			// Stars-air, pick up cascade energy
+			// Stars-air, pick up cascade energy and set cascade trigger if necessary
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
@@ -654,11 +657,14 @@ int32 UEssentialComponent::PurgeStars(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case WATER:
-			// Stars-water, pick up cascade energy
+			// Stars-water, pick up cascade energy and set cascade trigger if necessary
 
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
@@ -687,11 +693,14 @@ int32 UEssentialComponent::PurgeStars(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case FIRE:
-			// Stars-fire, pick up cascade energy
+			// Stars-fire, pick up cascade energy and set cascade trigger if necessary
 
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
@@ -746,11 +755,14 @@ int32 UEssentialComponent::PurgeWater(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case LIGHTNING:
-			// Water-lightning, pick up cascade energy
+			// Water-lightning, pick up cascade energy and set cascade trigger if necessary
 
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
@@ -758,7 +770,7 @@ int32 UEssentialComponent::PurgeWater(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case STARS:
-			// Water-stars, mark as cascade initializer
+			// Water-stars, mark as cascade trigger
 
 			if (!InteractFlags[ElemID])
 			{
@@ -898,11 +910,14 @@ int32 UEssentialComponent::PurgeEarth(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case LIGHTNING:
-			// Earth-lightning, pick up cascade energy
+			// Earth-lightning, pick up cascade energy and mark cascade trigger if necessary
 
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
@@ -1011,10 +1026,13 @@ int32 UEssentialComponent::PurgeMetal(FEssenceStack Stack, int32 Bookmark)
 			break;
 
 		case LIGHTNING:
-			// Metal-lightning, pick up cascade
+			// Metal-lightning, pick up cascade and mark as cascade trigger if necessary
 			if (CascadeParams.Contains(ElemID)) {
 				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
 					Bookmark--;
+				}
+				if (CascadeParams[ElemID].TriggerElemID == -1) {
+					CascadeParams[ElemID].TriggerElemID = Stack.ElemID;
 				}
 				CascadeParams[ElemID].NumCatalyzed++;
 			}
