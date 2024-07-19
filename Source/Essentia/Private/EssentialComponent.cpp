@@ -1140,7 +1140,9 @@ int32 UEssentialComponent::PurgeWood(FEssenceStack Stack, int32 Bookmark)
 			if (!InteractFlags[ElemID])
 			{
 				InteractFlags[ElemID] = true;
-
+				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
+					Bookmark--;
+				}
 				AddStack(GetBasicStack(FIRE));
 			}
 
@@ -1167,7 +1169,9 @@ int32 UEssentialComponent::PurgeWood(FEssenceStack Stack, int32 Bookmark)
 			if (!InteractFlags[ElemID])
 			{
 				InteractFlags[ElemID] = true;
-
+				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
+					Bookmark--;
+				}
 				AddStack(GetBasicStack(Stack.ElemID, true));
 			}
 
@@ -1194,7 +1198,9 @@ int32 UEssentialComponent::PurgeWood(FEssenceStack Stack, int32 Bookmark)
 			if (!InteractFlags[ElemID])
 			{
 				InteractFlags[ElemID] = true;
-
+				if (RemoveStack(EssentialCharge[i], i, true) && i < Bookmark) {
+					Bookmark--;
+				}
 				AddStack(GetBasicStack(ElemID));
 			}
 
