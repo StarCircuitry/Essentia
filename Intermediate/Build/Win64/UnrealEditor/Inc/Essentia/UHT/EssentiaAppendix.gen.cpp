@@ -60,14 +60,8 @@ template<> ESSENTIA_API UScriptStruct* StaticStruct<FEssenceStack>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEssenceStack_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// This is the basic unit of Essential charge\n" },
-#endif
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/EssentiaAppendix.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "This is the basic unit of Essential charge" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FEssenceStack_Statics::NewStructOps()
@@ -101,7 +95,13 @@ template<> ESSENTIA_API UScriptStruct* StaticStruct<FEssenceStack>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEssenceStack_Statics::NewProp_bIsPerpetual_MetaData[] = {
 		{ "Category", "EssenceStack" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// If a stack is perpetual, it can't be removed by any means.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/EssentiaAppendix.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "If a stack is perpetual, it can't be removed by any means." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FEssenceStack_Statics::NewProp_bIsPerpetual_SetBit(void* Obj)
@@ -268,10 +268,10 @@ template<> ESSENTIA_API UScriptStruct* StaticStruct<FCascadeParams>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_Statics::ScriptStructInfo[] = {
-		{ FEssenceStack::StaticStruct, Z_Construct_UScriptStruct_FEssenceStack_Statics::NewStructOps, TEXT("EssenceStack"), &Z_Registration_Info_UScriptStruct_EssenceStack, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEssenceStack), 3386720530U) },
+		{ FEssenceStack::StaticStruct, Z_Construct_UScriptStruct_FEssenceStack_Statics::NewStructOps, TEXT("EssenceStack"), &Z_Registration_Info_UScriptStruct_EssenceStack, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEssenceStack), 379299852U) },
 		{ FCascadeParams::StaticStruct, Z_Construct_UScriptStruct_FCascadeParams_Statics::NewStructOps, TEXT("CascadeParams"), &Z_Registration_Info_UScriptStruct_CascadeParams, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCascadeParams), 477738419U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_1763082393(TEXT("/Script/Essentia"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_784782514(TEXT("/Script/Essentia"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_Statics::ScriptStructInfo),
 		nullptr, 0);

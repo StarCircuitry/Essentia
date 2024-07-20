@@ -24,7 +24,6 @@
 			"EssentialCharacter_Base.cpp.obj",
 			"EssentialComponent.cpp.obj",
 			"EssentialField_Base.cpp.obj",
-			"EssentiaLibrary.cpp.obj",
 			"EssentialParticle_Base.cpp.obj",
 			"EssentialPawn_Base.cpp.obj",
 			"EssentialProjectileBasic_Base.cpp.obj",

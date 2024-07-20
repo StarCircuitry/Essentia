@@ -12,6 +12,7 @@
 			"EssentialComponent.gen.cpp.obj",
 			"EssentialField_Base.gen.cpp.obj",
 			"EssentialParticle_Base.gen.cpp.obj",
+			"EssentialPawn_Base.gen.cpp.obj",
 			"EssentialProjectileBasic_Base.gen.cpp.obj",
 			"EssentiaWidget_Base.gen.cpp.obj",
 			"EssenceTagBarComponent_Base.cpp.obj",
@@ -25,6 +26,7 @@
 			"EssentialField_Base.cpp.obj",
 			"EssentiaLibrary.cpp.obj",
 			"EssentialParticle_Base.cpp.obj",
+			"EssentialPawn_Base.cpp.obj",
 			"EssentialProjectileBasic_Base.cpp.obj",
 			"EssentiaWidget_Base.cpp.obj"
 		]

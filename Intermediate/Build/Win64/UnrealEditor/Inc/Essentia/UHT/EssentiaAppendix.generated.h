@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ESSENTIA_EssentiaAppendix_generated_h
 
-#define FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_27_GENERATED_BODY \
+#define FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_44_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FEssenceStack_Statics; \
 	ESSENTIA_API static class UScriptStruct* StaticStruct();
 
 
 template<> ESSENTIA_API UScriptStruct* StaticStruct<struct FEssenceStack>();
 
-#define FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_72_GENERATED_BODY \
+#define FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentiaAppendix_h_90_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCascadeParams_Statics; \
 	ESSENTIA_API static class UScriptStruct* StaticStruct();
 

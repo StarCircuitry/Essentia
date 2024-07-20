@@ -10,7 +10,6 @@
 #include "EssentialCharacter_Base.h"
 
 /**
-* -------------------------------------Overview--------------------------------------------------
 *
 * This is a modular component that can allow an arbitrary actor to hold elemental charge, which is
 * the core magic system of my game. Different elemental combinations produce different effects

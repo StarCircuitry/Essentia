@@ -61,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeEssenceTagContainer_Base() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssenceTagContainer_Base_eventAddEssenceTag_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssenceTagContainer_Base_eventAddEssenceTag_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag_Statics::NewProp_NewTagClass = { "NewTagClass", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssenceTagContainer_Base_eventAddEssenceTag_Parms, NewTagClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UEssenceTag_Base_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag_Statics::NewProp_Stack,
@@ -155,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeEssenceTagContainer_Base() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEssenceTagContainer_Base_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UEssenceTagContainer_Base_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag, "AddEssenceTag" }, // 167097613
+		{ &Z_Construct_UFunction_UEssenceTagContainer_Base_AddEssenceTag, "AddEssenceTag" }, // 2526441391
 		{ &Z_Construct_UFunction_UEssenceTagContainer_Base_RemoveEssenceTag, "RemoveEssenceTag" }, // 964330743
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEssenceTagContainer_Base_Statics::FuncInfo) < 2048);
@@ -230,9 +230,9 @@ void EmptyLinkFunctionForGeneratedCodeEssenceTagContainer_Base() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssenceTagContainer_Base_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UEssenceTagContainer_Base, UEssenceTagContainer_Base::StaticClass, TEXT("UEssenceTagContainer_Base"), &Z_Registration_Info_UClass_UEssenceTagContainer_Base, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssenceTagContainer_Base), 1596670113U) },
+		{ Z_Construct_UClass_UEssenceTagContainer_Base, UEssenceTagContainer_Base::StaticClass, TEXT("UEssenceTagContainer_Base"), &Z_Registration_Info_UClass_UEssenceTagContainer_Base, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssenceTagContainer_Base), 2502210827U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssenceTagContainer_Base_h_3398790587(TEXT("/Script/Essentia"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssenceTagContainer_Base_h_3804847689(TEXT("/Script/Essentia"),
 		Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssenceTagContainer_Base_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssenceTagContainer_Base_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

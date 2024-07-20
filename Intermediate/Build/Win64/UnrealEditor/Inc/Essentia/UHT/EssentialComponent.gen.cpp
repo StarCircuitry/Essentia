@@ -282,7 +282,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_AddStack_Statics::NewProp_NewStack = { "NewStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventAddStack_Parms, NewStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_AddStack_Statics::NewProp_NewStack = { "NewStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventAddStack_Parms, NewStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	void Z_Construct_UFunction_UEssentialComponent_AddStack_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((EssentialComponent_eventAddStack_Parms*)Obj)->ReturnValue = 1;
@@ -406,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_DisplayAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventDisplayAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_DisplayAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventDisplayAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_DisplayAdd_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_DisplayAdd_Statics::NewProp_Stack,
 	};
@@ -474,7 +474,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::NewProp_DisplayStack = { "DisplayStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventEditorDisplayEssentia_Parms, DisplayStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::NewProp_DisplayStack = { "DisplayStack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventEditorDisplayEssentia_Parms, DisplayStack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia_Statics::NewProp_DisplayStack,
 	};
@@ -593,7 +593,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		((EssentialComponent_eventGetBasicStack_Parms*)Obj)->bIsStable = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_bIsStable = { "bIsStable", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(EssentialComponent_eventGetBasicStack_Parms), &Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_bIsStable_SetBit, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventGetBasicStack_Parms, ReturnValue), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventGetBasicStack_Parms, ReturnValue), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_ElemID,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_GetBasicStack_Statics::NewProp_bIsStable,
@@ -658,7 +658,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_MaterialAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventMaterialAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_MaterialAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventMaterialAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_MaterialAdd_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_MaterialAdd_Statics::NewProp_Stack,
 	};
@@ -730,7 +730,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeAir_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeAir_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeAir_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeAir_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeAir_Statics::PropPointers[] = {
@@ -778,7 +778,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeEarth_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeEarth_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeEarth_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeEarth_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeEarth_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeEarth_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeEarth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeEarth_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeEarth_Statics::PropPointers[] = {
@@ -820,7 +820,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeFire_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeFire_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeFire_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeFire_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeFire_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeFire_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeFire_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeFire_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeFire_Statics::PropPointers[] = {
@@ -862,7 +862,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeLightning_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeLightning_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeLightning_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeLightning_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeLightning_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeLightning_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeLightning_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeLightning_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeLightning_Statics::PropPointers[] = {
@@ -904,7 +904,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeMetal_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeMetal_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeMetal_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeMetal_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeMetal_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeMetal_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeMetal_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeMetal_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeMetal_Statics::PropPointers[] = {
@@ -946,7 +946,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStack_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStack_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStack_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStack_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStack_Statics::NewProp_StackIndex = { "StackIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStack_Parms, StackIndex), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStack_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStack_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeStack_Statics::PropPointers[] = {
@@ -988,7 +988,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStars_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStars_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStars_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStars_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStars_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStars_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeStars_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeStars_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeStars_Statics::PropPointers[] = {
@@ -1030,7 +1030,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWater_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWater_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWater_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWater_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWater_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWater_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWater_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWater_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeWater_Statics::PropPointers[] = {
@@ -1072,7 +1072,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWood_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWood_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWood_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWood_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWood_Statics::NewProp_Bookmark = { "Bookmark", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWood_Parms, Bookmark), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_PurgeWood_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventPurgeWood_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_PurgeWood_Statics::PropPointers[] = {
@@ -1118,7 +1118,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_RemoveStack_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventRemoveStack_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_RemoveStack_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventRemoveStack_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UEssentialComponent_RemoveStack_Statics::NewProp_StackIndex = { "StackIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventRemoveStack_Parms, StackIndex), METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UEssentialComponent_RemoveStack_Statics::NewProp_bIsPurging_SetBit(void* Obj)
 	{
@@ -1169,7 +1169,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventSpawnField_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventSpawnField_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::NewProp_FieldLifespan = { "FieldLifespan", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventSpawnField_Parms, FieldLifespan), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_SpawnField_Statics::NewProp_Stack,
@@ -1211,7 +1211,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_TagAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventTagAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UEssentialComponent_TagAdd_Statics::NewProp_Stack = { "Stack", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(EssentialComponent_eventTagAdd_Parms, Stack), Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEssentialComponent_TagAdd_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEssentialComponent_TagAdd_Statics::NewProp_Stack,
 	};
@@ -1348,30 +1348,30 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEssentialComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UEssentialComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UEssentialComponent_AddStack, "AddStack" }, // 266752441
+		{ &Z_Construct_UFunction_UEssentialComponent_AddStack, "AddStack" }, // 1975172482
 		{ &Z_Construct_UFunction_UEssentialComponent_CheckCascade, "CheckCascade" }, // 413540118
 		{ &Z_Construct_UFunction_UEssentialComponent_DestroyEphemeral, "DestroyEphemeral" }, // 2202684848
-		{ &Z_Construct_UFunction_UEssentialComponent_DisplayAdd, "DisplayAdd" }, // 1662591663
+		{ &Z_Construct_UFunction_UEssentialComponent_DisplayAdd, "DisplayAdd" }, // 1614691378
 		{ &Z_Construct_UFunction_UEssentialComponent_DisplayRemove, "DisplayRemove" }, // 2345153669
-		{ &Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia, "EditorDisplayEssentia" }, // 1778682000
+		{ &Z_Construct_UFunction_UEssentialComponent_EditorDisplayEssentia, "EditorDisplayEssentia" }, // 3018235215
 		{ &Z_Construct_UFunction_UEssentialComponent_EssentialTick, "EssentialTick" }, // 3753089425
 		{ &Z_Construct_UFunction_UEssentialComponent_FinishCascade, "FinishCascade" }, // 773035481
-		{ &Z_Construct_UFunction_UEssentialComponent_GetBasicStack, "GetBasicStack" }, // 1666440290
+		{ &Z_Construct_UFunction_UEssentialComponent_GetBasicStack, "GetBasicStack" }, // 165848628
 		{ &Z_Construct_UFunction_UEssentialComponent_InitializeDisplayWidget, "InitializeDisplayWidget" }, // 2987498281
-		{ &Z_Construct_UFunction_UEssentialComponent_MaterialAdd, "MaterialAdd" }, // 2028630655
+		{ &Z_Construct_UFunction_UEssentialComponent_MaterialAdd, "MaterialAdd" }, // 2006108000
 		{ &Z_Construct_UFunction_UEssentialComponent_MaterialRemove, "MaterialRemove" }, // 565984376
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeAir, "PurgeAir" }, // 3207624081
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeEarth, "PurgeEarth" }, // 2144811046
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeFire, "PurgeFire" }, // 2719276920
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeLightning, "PurgeLightning" }, // 648056701
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeMetal, "PurgeMetal" }, // 2836359476
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeStack, "PurgeStack" }, // 3622165484
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeStars, "PurgeStars" }, // 4273601166
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWater, "PurgeWater" }, // 3912437627
-		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWood, "PurgeWood" }, // 722159122
-		{ &Z_Construct_UFunction_UEssentialComponent_RemoveStack, "RemoveStack" }, // 943032199
-		{ &Z_Construct_UFunction_UEssentialComponent_SpawnField, "SpawnField" }, // 1864598832
-		{ &Z_Construct_UFunction_UEssentialComponent_TagAdd, "TagAdd" }, // 557886155
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeAir, "PurgeAir" }, // 1835165189
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeEarth, "PurgeEarth" }, // 3380706935
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeFire, "PurgeFire" }, // 1327136160
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeLightning, "PurgeLightning" }, // 1874818286
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeMetal, "PurgeMetal" }, // 2890438324
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeStack, "PurgeStack" }, // 303525235
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeStars, "PurgeStars" }, // 1472218352
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWater, "PurgeWater" }, // 3167307407
+		{ &Z_Construct_UFunction_UEssentialComponent_PurgeWood, "PurgeWood" }, // 2601122697
+		{ &Z_Construct_UFunction_UEssentialComponent_RemoveStack, "RemoveStack" }, // 323146212
+		{ &Z_Construct_UFunction_UEssentialComponent_SpawnField, "SpawnField" }, // 3247478828
+		{ &Z_Construct_UFunction_UEssentialComponent_TagAdd, "TagAdd" }, // 2111618689
 		{ &Z_Construct_UFunction_UEssentialComponent_TagRemove, "TagRemove" }, // 2577559860
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEssentialComponent_Statics::FuncInfo) < 2048);
@@ -1383,7 +1383,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		{ "ModuleRelativePath", "Public/EssentialComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_Inner = { "EssentialCharge", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 3386720530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_Inner = { "EssentialCharge", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FEssenceStack, METADATA_PARAMS(0, nullptr) }; // 379299852
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_MetaData[] = {
 		{ "Category", "Physics|Charge" },
@@ -1396,7 +1396,7 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 #endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge = { "EssentialCharge", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEssentialComponent, EssentialCharge), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_MetaData), Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_MetaData) }; // 3386720530
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge = { "EssentialCharge", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEssentialComponent, EssentialCharge), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_MetaData), Z_Construct_UClass_UEssentialComponent_Statics::NewProp_EssentialCharge_MetaData) }; // 379299852
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEssentialComponent_Statics::NewProp_ChargeCounts_Inner = { "ChargeCounts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEssentialComponent_Statics::NewProp_ChargeCounts_MetaData[] = {
@@ -1571,9 +1571,9 @@ void EmptyLinkFunctionForGeneratedCodeEssentialComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UEssentialComponent, UEssentialComponent::StaticClass, TEXT("UEssentialComponent"), &Z_Registration_Info_UClass_UEssentialComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssentialComponent), 69390530U) },
+		{ Z_Construct_UClass_UEssentialComponent, UEssentialComponent::StaticClass, TEXT("UEssentialComponent"), &Z_Registration_Info_UClass_UEssentialComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEssentialComponent), 2414105570U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_2724991624(TEXT("/Script/Essentia"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_2399431849(TEXT("/Script/Essentia"),
 		Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_silen_Documents_Unreal_Projects_Laboratory_Plugins_Essentia_Source_Essentia_Public_EssentialComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

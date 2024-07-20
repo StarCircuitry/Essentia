@@ -6,6 +6,24 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "EssentiaAppendix.generated.h"
 
+
+/**
+* This file contains the necessary datastructures that underpin the Essentia system:
+* 
+* 1. FEssenceStack is the structure of a single unit of elemental charge. We track the element ID,
+* the stability and reactivity of the charge, and purge parameters.
+* 
+* 2. FCascadeParams contains everything we have to track for a cascade reaction to determine output.
+* 
+* 3. EssentialColors is a hard-coded array of FColors I associate with each element. These are just
+* for testing right now, and the exact colors may change as I build out the design language. A final
+* implementation would have a more robust way to access them.
+* 
+* 
+* I've preprocessed some ID constants below, just in case I change something serious later.
+*/
+
+
 #define NUM_ELEMENTS 8
 #define AIR 0
 #define LIGHTNING 1
@@ -21,7 +39,6 @@
 class UEssentialComponent;
 
 
-// This is the basic unit of Essential charge
 USTRUCT(BlueprintType, Blueprintable)
 struct FEssenceStack {
 	GENERATED_USTRUCT_BODY()
@@ -34,6 +51,7 @@ struct FEssenceStack {
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	bool bIsStable;
 	
+	// If a stack is perpetual, it can't be removed by any means.
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	bool bIsPerpetual;
 	

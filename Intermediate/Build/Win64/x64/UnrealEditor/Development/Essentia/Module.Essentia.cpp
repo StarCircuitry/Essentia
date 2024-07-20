@@ -21,7 +21,6 @@
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialCharacter_Base.cpp"
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialComponent.cpp"
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialField_Base.cpp"
-#include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentiaLibrary.cpp"
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialParticle_Base.cpp"
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialPawn_Base.cpp"
 #include "C:/Users/silen/Documents/Unreal Projects/Laboratory/Plugins/Essentia/Source/Essentia/Private/EssentialProjectileBasic_Base.cpp"
